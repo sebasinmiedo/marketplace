@@ -1,0 +1,14 @@
+{
+    "name": "marketplace/ecommerce",
+    "description": "Sistema de comercio electrónico con panel de administración",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marketplace\\": "src/"
+        }
+    }
+} 
